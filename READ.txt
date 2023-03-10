@@ -1,6 +1,6 @@
 final script: periodic_table_database.m
 
-function used in final script:
+functions used in final script (located in final folder):
 fromElementNameV4.m
 fromElementSymbolV2.m
 fromNumberV2.m
