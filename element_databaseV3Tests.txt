@@ -1,0 +1,59 @@
+% SYMBOL, two letters
+% inputType: Symbol
+% input: Fe
+% expected: Iron	Fe	26	55.845
+% result: Iron	Fe	26	55.8450
+
+% SYMBOL, one letter
+% inputType: Symbol
+% input: P
+% expected: Phosphorus	P	15	30.974
+% result: Phosphorus	P	15	30.9740
+
+% SYMBOL, one letter (lower-case)
+% inputType: symbol
+% input: p
+% expected: Phosphorus	P	15	30.974
+% result: Phosphorus	P	15	30.9740
+
+% NAME, all lower-case
+% inputType: name
+% input: titanium
+% expected: Titanium	Ti	22	47.867
+% result: Titanium	Ti	22	47.8670
+
+% NAME, all upper-case
+% inputType: NAME
+% input: CHROMIUM
+% expected: Chromium	Cr	24	51.996
+% result: Chromium	Cr	24	51.9960
+
+% NAME, mixed-case
+% inputType: Name
+% input: ziNc
+% expected: Zinc	Zn	30	65.38
+% result: Zinc	Zn	30	65.380
+
+% NUMBER, low number
+% inputType: number
+% input: 2
+% expected: Helium	He	2	4.002
+% result: Helium	He	2	4.0020
+
+% NUMBER, high number
+% inputType: number
+% input: 100
+% expected: Fermium	Fm	100	257
+% result: Fermium	Fm	100	257
+
+% WEIGHT, 3 decimals
+% inputType: weight
+% input: 14.007
+% expected: Nitrogen	N	7	14.007
+% result: Nitrogen	N	7	14.0070
+
+% WEIGHT, 2 decimals
+% inputType: weight
+% input: 121.76
+% expected: Antimony	Sb	51	121.76
+% result: Antimony	Sb	51	121.76

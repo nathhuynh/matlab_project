@@ -1,0 +1,9 @@
+final script: periodic_table_database.m
+
+function used in final script:
+fromElementNameV4.m
+fromElementSymbolV2.m
+fromNumberV2.m
+fromWeightV2.m
+imageSelect.m
+

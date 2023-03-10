@@ -1,0 +1,26 @@
+% element_image = imageSelect(element_name)
+
+% last letter capitalised
+% input: hydrogeN
+% element_image = imageSelect("hydrogeN")
+% Correct image displayed = true
+
+% first letter capitalised
+% input: Carbon
+% element_image = imageSelect("Carbon")
+% Correct image displayed = true
+
+% short name, upper case
+% input: IRON
+% element_image = imageSelect("IRON")
+% Correct image displayed = true
+
+% short name, lowercase
+% input: iron
+% element_image = imageSelect("iron")
+% Correct image displayed = true
+
+% long name, upper case
+% input: DARMSTADTIUM
+% element_image = imageSelect("DARMSTADTIUM")
+% Correct image displayed = true

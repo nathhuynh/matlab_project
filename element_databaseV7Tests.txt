@@ -1,0 +1,110 @@
+% name, lowercase
+% inputType: name
+% input: carbon
+% expected: Carbon	C	6	12.011
+% result: Carbon	C	6	12.011
+% Correct element image displayed = true
+% Correct annotations displayed = true
+% Image guide displayed = true
+
+% name, uppercase
+% inputType: NAME
+% input: Tantalum
+% expected: Tantalum	Ta	73	180.948
+% result: Tantalum	Ta	73	180.948
+% Correct element image displayed = true
+% Correct annotations displayed = true
+% Image guide displayed = true
+
+% name, mixedcase
+% inputType: name
+% input: OsmIUm
+% expected: Osmium	Os	76	190.23
+% result: Osmium	Os	76	190.23
+% Correct element image displayed = true
+% Correct annotations displayed = true
+% Image guide displayed = true
+
+% SYMBOL, 1 letter, lowercase
+% inputType: Symbol
+% input: o
+% expected: Oxygen	O	8	15.999
+% result:   Oxygen	O	8	15.999
+% Correct element image displayed = true
+% Correct annotations displayed = true
+% Image guide displayed = true
+
+% SYMBOL, 2 letter, uppercase
+% inputType: SYMBOL
+% input: NA
+% expected: Sodium	Na	11	22.99
+% result: Sodium	Na	11	22.99
+% Correct element image displayed = true
+% Correct annotations displayed = true
+% Image guide displayed = true
+
+% WEIGHT, 3 decimals
+% inputType: weight
+% input: 24.305
+% expected: Magnesium	Mg	12	24.305
+% result: Magnesium	Mg	12	24.305
+% Correct element image displayed = true
+% Correct annotations displayed = true
+% Image guide displayed = true
+
+% WEIGHT, 0 decimals
+% inputType: weight
+% input: 292
+% expected: Livermorium	Lv	116	292
+% result:  Livermorium	Lv	116	292
+% Correct element image displayed = true
+% Correct annotations displayed = true
+% Image guide displayed = true
+
+% WEIGHT, 1 decimal
+% inputType: weight
+% input: 162.5
+% expected: Dysprosium	Dy	66	162.5
+% result: Dysprosium	Dy	66	162.5
+% Correct element image displayed = true
+% Correct annotations displayed = true
+% Image guide displayed = true
+
+% NUMBER, large number
+% inputType: number
+% input: 10000000
+% expected: Element could not be found with number: 10000000
+% result: Element could not be found with number: 10000000
+% Image displayed = false
+% Correct annotations displayed = false
+% Image guide displayed = false
+
+% NAME, incorrect name
+% inputType: name
+% input: computer
+% expected: Element could not be found with name: computer
+% result: Element could not be found with name: computer
+% Image displayed = false
+% Correct annotations displayed = false
+% Image guide displayed = false
+
+
+% WEIGHT, incorrect weight
+% inputType: weight
+% input: 1000
+% expected: Element could not be found with weight: 1000
+% result: Element could not be found with weight: 1000
+% Image displayed = false
+% Correct annotations displayed = false
+% Image guide displayed = false
+
+
+% incorrect inputType
+% inputType: element
+% input: element
+% expected: Input type unrecognised
+% result: Input type unrecognised
+% Image displayed = false
+% Correct annotations displayed = false
+% Image guide displayed = false
+

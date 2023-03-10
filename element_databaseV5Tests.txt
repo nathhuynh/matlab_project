@@ -1,0 +1,50 @@
+% name, lowercase
+% inputType: name
+% input: sodium
+% expected: Sodium    Na    11   22.9900
+% result: {'Sodium'}    {'Na'}    {[11]}    {[22.9900]}
+% Image displayed = true
+
+% SYMBOL, 1 letter, lowercase
+% inputType: Symbol
+% input: k
+% expected: Potassium   K  19  39.0980
+% result: {'Potassium'}    {'K'}    {[19]}    {[39.0980]}
+% Image displayed = true
+
+
+% SYMBOL, 1 letter, uppercase
+% inputType: SYMBOL
+% input: V
+% expected: Vanadium	V	23	50.942
+% result: {'Vanadium'}    {'V'}    {[23]}    {[50.9420]}
+% Image displayed = true
+
+
+% NUMBER, large number
+% inputType: number
+% input: 10000000
+% expected: Element could not be found with number: 10000000
+% result: Element could not be found with number: 10000000
+% Image displayed = false
+
+% NAME, incorrect name
+% inputType: name
+% input: computer
+% expected: Element could not be found with name: computer
+% result: Element could not be found with name: computer
+% Image displayed = false
+
+% WEIGHT, incorrect weight
+% inputType: weight
+% input: 1000
+% expected: Element could not be found with weight: 1000
+% result: Element could not be found with weight: 1000
+% Image displayed = false
+
+% incorrect inputType
+% inputType: element
+% input: element
+% expected: Input type unrecognised
+% result: Input type unrecognised
+% Image displayed = false

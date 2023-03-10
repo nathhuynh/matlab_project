@@ -1,0 +1,111 @@
+% NAME, UPPERCASE 
+% inputType: NAME
+% input: ZINC
+% expected: Zinc Zn 30 65.38 
+% result: Zinc Zn 30 65.38 
+% Correct element image displayed = true
+% Correct annotations displayed = true
+
+
+% name, lowercase 
+% inputType: name
+% input: neon
+% expected: Neon Ne 10 20.18
+% result: Neon Ne 10 20.18
+% Correct element image displayed = true
+% Correct annotations displayed = true
+
+
+% SYMBOL, UPPERCASE 
+% inputType: SYMBOL
+% input: BI
+% expected: Bismuth	Bi	83	208.98
+% result: Bismuth	Bi	83	208.98
+% Correct element image displayed = true
+% Correct annotations displayed = true
+
+
+% symbol, lowercase 
+% inputType: symbol
+% input: po
+% expected: Polonium Po 84 210
+% result: Polonium Po 84 210
+% Correct element image displayed = true
+% Correct annotations displayed = true
+
+
+% NUMBER, UPPERCASE 
+% inputType: NUMBER
+% input: 94
+% expected: Plutonium Pu 94 244 
+% result: Plutonium Pu 94 244 
+% Correct element image displayed = true
+% Correct annotations displayed = true
+
+% number, lowercase 
+% inputType: number
+% input: 106
+% expected: Seaborgium Sg 106 266 
+% result: Seaborgium Sg 106 266 
+% Correct element image displayed = true
+% Correct annotations displayed = true
+
+% WEIGHT, UPPERCASE 
+% inputType: WEIGHT
+% input: 231.036 (3 decimals)
+% expected: Protactinium Pa 91 231.036
+% result: Protactinium Pa 91 231.036
+% Correct element image displayed = true
+% Correct annotations displayed = true
+
+% WEIGHT, UPPERCASE 
+% inputType: WEIGHT
+% input: 150.36 (2 decimals)
+% expected: Samarium Sm 62 150.36 
+% result: Samarium Sm 62 150.36 
+% Correct element image displayed = true
+% Correct annotations displayed = true
+
+% Weight, first letter capitalised
+% inputType: Weight
+% input: 127.6 (1 decimal)
+% expected: Tellurium Te 52 127.6  
+% result: Tellurium Te 52 127.6 
+% Correct element image displayed = true
+% Correct annotations displayed = true
+
+% weight, lowercase 
+% inputType: weight
+% input: 237 (no decimals)
+% expected: Neptunium Np 93 237
+% result: Neptunium Np 93 237
+% Correct element image displayed = true
+% Correct annotations displayed = true
+
+
+% name, incorrect name (does not exist) 
+% inputType: name
+% input: program
+% expected: Element could not be found with name: program
+% result: Element could not be found with name: program
+
+% symbol, incorrect symbol (does not exist) 
+% inputType: symbol
+% input: LOL
+% expected: Element could not be found with symbol: LOL
+% result: Element could not be found with symbol: LOL
+
+% number, incorrect number (does not exist) 
+% inputType: number
+% input: 120
+% expected: Element could not be found with number: 120
+% result: Element could not be found with number: 120
+
+% weight, incorrect weight (does not exist) 
+% inputType: weight
+% input: 365
+% expected: Element could not be found with weight: 365
+% result: Element could not be found with weight: 365
+
+
+
